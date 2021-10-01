@@ -60,9 +60,26 @@ main {
 
 .gallery li {
   width: 320px;
-  height: 200px;
-  background-color: yellow;
   margin: 5px;
+}
+.gallery .person {
+  background-color: yellow;
+  height: 200px;
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery .person .info {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* Footer  */
