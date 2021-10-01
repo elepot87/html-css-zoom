@@ -98,7 +98,7 @@ footer .right {
   padding: 5px 0;
 }
 
-footer .left .footer-icon {
+.footer-icon {
   margin: 0px 20px;
   text-align: center;
 }
@@ -116,4 +116,8 @@ footer .left .footer-icon {
 
 .footer-icon .fa-chevron-up {
   margin-left: 15px;
+}
+
+.fa-external-link-alt {
+  color: #4cc602;
 }
