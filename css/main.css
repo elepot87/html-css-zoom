@@ -45,13 +45,27 @@ header i {
 }
 
 /* Main Gallery */
+
 main {
-  background-color: yellow;
   flex-grow: 1;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery li {
+  width: 320px;
+  height: 200px;
+  background-color: yellow;
+  margin: 5px;
 }
 
 /* Footer  */
 
 footer {
-  background-color: green;
+  background-color: #222325;
 }
