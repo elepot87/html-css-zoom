@@ -86,4 +86,26 @@ main {
 
 footer {
   background-color: #222325;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left,
+footer .center,
+footer .right {
+  list-style: none;
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+}
+
+footer .left .footer-icon {
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.footer-icon .icon {
+  font-size: 25px;
+  display: block;
+  margin: 5px;
 }
