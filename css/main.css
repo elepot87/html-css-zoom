@@ -22,6 +22,11 @@ body {
   padding: 10px;
 }
 
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .mr-5 {
   margin-right: 5px;
 }
@@ -95,7 +100,6 @@ footer .center,
 footer .right {
   list-style: none;
   display: flex;
-  padding: 5px 0;
 }
 
 .footer-icon {
@@ -114,10 +118,16 @@ footer .right {
   align-items: center;
 }
 
-.footer-icon .fa-chevron-up {
+.footer-icon .icon .active {
   margin-left: 15px;
 }
 
 .fa-external-link-alt {
   color: #4cc602;
+}
+
+.right .btn {
+  border-radius: 0px;
+  align-items: stretch;
+  color: #cd4f4a;
 }
