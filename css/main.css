@@ -1,3 +1,4 @@
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +7,36 @@
 
 body {
   font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Utilities */
+
+.p-10 {
+  padding: 10px;
+}
+
+/* Header */
+
+header {
+  background-color: red;
+  text-align: right;
+}
+
+/* Main Gallery */
+main {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+/* Footer  */
+
+footer {
+  background-color: green;
 }
