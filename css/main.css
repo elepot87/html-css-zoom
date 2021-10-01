@@ -96,7 +96,6 @@ footer .right {
   list-style: none;
   display: flex;
   padding: 5px 0;
-  align-items: center;
 }
 
 footer .left .footer-icon {
@@ -108,4 +107,13 @@ footer .left .footer-icon {
   font-size: 25px;
   display: block;
   margin: 5px;
+}
+
+.footer-icon.menu-parent {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon .fa-chevron-up {
+  margin-left: 15px;
 }
